@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Sora:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0A0F1F;
+  color: #ffffff;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1f2e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4A90E2;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9013FE;
+}
+
+/* Selection */
+::selection {
+  background: #9013FE;
+  color: white;
+}
+
+/* Base components */
+@layer components {
+  .bella-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .bella-button {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:scale-105 active:scale-95;
+  }
+  
+  .bella-button-primary {
+    @apply bella-button bg-gradient-to-r from-bella-blue to-bella-purple text-white hover:shadow-lg hover:shadow-bella-purple/25;
+  }
+  
+  .bella-button-secondary {
+    @apply bella-button border-2 border-bella-blue text-bella-blue hover:bg-bella-blue hover:text-white;
+  }
+  
+  .bella-button-gold {
+    @apply bella-button bg-gradient-to-r from-bella-gold to-yellow-400 text-bella-dark hover:shadow-lg hover:shadow-bella-gold/25;
+  }
+  
+  .bella-card {
+    @apply bg-bella-gray/50 backdrop-blur-sm border border-gray-700/50 rounded-xl p-6 hover:border-bella-blue/50 transition-all duration-300;
+  }
+  
+  .bella-card-hover {
+    @apply bella-card hover:transform hover:scale-105 hover:shadow-xl hover:shadow-bella-purple/10;
+  }
+  
+  .bella-card-vip {
+    @apply bella-card border-bella-gold hover:border-bella-gold hover:shadow-xl hover:shadow-bella-gold/20;
+  }
+  
+  .bella-gradient-text {
+    @apply bg-gradient-to-r from-bella-blue to-bella-purple bg-clip-text text-transparent;
+  }
+  
+  .bella-section {
+    @apply py-16 lg:py-24;
+  }
+  
+  .bella-heading {
+    @apply font-display text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bella-gradient-text;
+  }
+  
+  .bella-subheading {
+    @apply font-display text-xl md:text-2xl lg:text-3xl font-semibold mb-4 text-white;
+  }
+  
+  .bella-text {
+    @apply text-gray-300 text-lg leading-relaxed;
+  }
+}
+
+/* Animations */
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(74, 144, 226, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(144, 19, 254, 0.5);
+  }
+}
+
+.floating {
+  animation: floating 3s ease-in-out infinite;
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Background patterns */
+.bella-bg-pattern {
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(74, 144, 226, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(144, 19, 254, 0.1) 0%, transparent 50%);
+}
+
+.bella-bg-dots {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Form styles */
+.bella-input {
+  @apply w-full px-4 py-3 bg-bella-gray/70 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-bella-blue focus:ring-2 focus:ring-bella-blue/20 transition-all duration-300;
+}
+
+.bella-textarea {
+  @apply bella-input resize-none min-h-[120px];
+}
+
+/* Mobile responsiveness */
+@media (max-width: 640px) {
+  .bella-heading {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  .bella-subheading {
+    @apply text-lg md:text-xl;
+  }
+  
+  .bella-container {
+    @apply px-4;
+  }
+}
