@@ -1,14 +1,14 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/faq/page": "app/faq/page.js",
-  "/partners/page": "app/partners/page.js",
   "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
+  "/partners/page": "app/partners/page.js",
   "/apply/page": "app/apply/page.js",
-  "/services/solana/page": "app/services/solana/page.js",
-  "/contact/page": "app/contact/page.js",
   "/services/page": "app/services/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/about/page": "app/about/page.js",
   "/services/twitter/page": "app/services/twitter/page.js",
+  "/services/solana/page": "app/services/solana/page.js",
   "/services/exchange-listings/page": "app/services/exchange-listings/page.js",
   "/services/trending-listings/page": "app/services/trending-listings/page.js"
 }
