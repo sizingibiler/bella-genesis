@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Video, Gift, Waves, TrendingUp, Box, ShieldAlert, Rocket, Package2 } from 'lucide-react'
+import { Video, Gift, Waves, TrendingUp, Box, ShieldAlert, Rocket, Package2, Twitter } from 'lucide-react'
 
 export default function ServicesGrid() {
   const services = [
@@ -10,6 +10,12 @@ export default function ServicesGrid() {
       title: "Telegram Packages",
       href: "/services/telegram",
       description: "Engage with targeted communities on Telegram."
+    },
+    {
+      icon: <Twitter className="w-8 h-8" />,
+      title: "Twitter Marketing",
+      href: "/services/twitter",
+      description: "Amplify your reach with verified crypto influencers on Twitter."
     },
     {
       icon: <Video className="w-8 h-8" />,

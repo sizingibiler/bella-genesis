@@ -19,7 +19,7 @@ export default function TwitterPage() {
         "Basic analytics report",
         "24-hour campaign duration"
       ],
-      code: "TW-START01",
+      code: "TW-STARTER",
       color: "from-blue-500 to-blue-600"
     },
     {
@@ -31,7 +31,7 @@ export default function TwitterPage() {
         "Detailed analytics report",
         "48-hour campaign duration"
       ],
-      code: "TW-STD01",
+      code: "TW-STANDARD",
       color: "from-blue-600 to-blue-700"
     },
     {
@@ -43,7 +43,7 @@ export default function TwitterPage() {
         "Comprehensive analytics report",
         "Premium support"
       ],
-      code: "TW-VIP01",
+      code: "TW-VIP",
       color: "from-purple-600 to-purple-700",
       isVip: true
     }
