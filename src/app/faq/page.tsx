@@ -95,7 +95,7 @@ export default function FAQPage() {
       questions: [
         {
           question: "How do I get started with Bella Genesis?",
-          answer: "Getting started is easy! Contact us through our website, Telegram (@bella941_mkt), or email. We'll schedule a consultation to understand your project needs and create a customized marketing strategy."
+          answer: "Getting started is easy! Contact us through our website, Telegram (@Bella941), or email. We'll schedule a consultation to understand your project needs and create a customized marketing strategy."
         },
         {
           question: "What information do you need from my project?",
@@ -199,7 +199,7 @@ export default function FAQPage() {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link 
-                  href="https://t.me/bella941_mkt" 
+                  href="https://t.me/Bella941" 
                   target="_blank"
                   className="bella-button-primary flex items-center justify-center"
                 >

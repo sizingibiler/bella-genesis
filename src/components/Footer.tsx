@@ -23,14 +23,14 @@ export default function Footer() {
     Resources: [
       { label: 'Apply Now', href: '/apply' },
       { label: 'Partnership', href: '/partners' },
-      { label: 'Support', href: 'https://t.me/bella941_mkt', external: true as boolean },
+      { label: 'Support', href: 'https://t.me/Bella941', external: true as boolean },
     ]
   }
 
   const socialLinks = [
     {
       name: 'Telegram',
-      href: 'https://t.me/bella941_mkt',
+      href: 'https://t.me/Bella941',
       icon: <Send className="w-5 h-5" />,
       color: 'hover:text-blue-400'
     },
@@ -135,7 +135,7 @@ export default function Footer() {
             Join hundreds of successful projects that trusted Bella Genesis for their marketing needs.
           </p>
           <a
-            href="https://t.me/bella941_mkt?text=Hello, I'm ready to discuss my project and explore #GENMode opportunities!"
+            href="https://t.me/Bella941?text=Hello, I'm ready to discuss my project and explore #GENMode opportunities!"
             target="_blank"
             rel="noopener noreferrer"
             className="bella-button-primary"

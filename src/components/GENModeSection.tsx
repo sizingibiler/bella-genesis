@@ -110,7 +110,7 @@ export default function GENModeSection() {
               Let's build something extraordinary together.
             </p>
             <a
-              href="https://t.me/bella941_mkt"
+              href="https://t.me/Bella941"
               target="_blank"
               rel="noopener noreferrer"
               className="bella-button-gold"

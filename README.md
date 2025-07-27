@@ -39,4 +39,4 @@ npm run build
 
 ## Contact
 
-For inquiries, contact us at bellagenesis.contact@gmail.com or via Telegram: @bella941_mkt
+For inquiries, contact us at bellagenesis.contact@gmail.com or via Telegram: @Bella941

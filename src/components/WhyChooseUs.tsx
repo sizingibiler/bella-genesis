@@ -161,7 +161,7 @@ export default function WhyChooseUs() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://t.me/bella941_mkt?text=Hello, I'd like to learn more about Bella Genesis and how you can help my project succeed!"
+                href="https://t.me/Bella941?text=Hello, I'd like to learn more about Bella Genesis and how you can help my project succeed!"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bella-button-gold group"

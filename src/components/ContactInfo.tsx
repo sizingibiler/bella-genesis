@@ -27,8 +27,8 @@ export default function ContactInfo() {
       icon: <Send className="w-8 h-8" />,
       title: "Telegram",
       description: "Our primary communication channel. Fast, secure, and always available.",
-      contact: "@bella941_mkt",
-      link: "https://t.me/bella941_mkt",
+      contact: "@Bella941",
+      link: "https://t.me/Bella941",
       color: "from-blue-500 to-blue-600",
       badge: "Recommended"
     },
@@ -172,7 +172,7 @@ export default function ContactInfo() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://t.me/bella941_mkt?text=Hello! I'm interested in learning more about Bella Genesis services. Can we discuss my project?"
+                href="https://t.me/Bella941?text=Hello! I'm interested in learning more about Bella Genesis services. Can we discuss my project?"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bella-button-gold group"

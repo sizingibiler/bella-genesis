@@ -22,7 +22,7 @@ export default function ContactHero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://t.me/bella941_mkt"
+            href="https://t.me/Bella941"
             target="_blank"
             rel="noopener noreferrer"
             className="bella-button-primary group"

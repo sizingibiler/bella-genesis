@@ -53,7 +53,7 @@ export default function Navbar() {
             
             {/* CTA Button */}
             <a
-              href="https://t.me/bella941_mkt"
+              href="https://t.me/Bella941"
               target="_blank"
               rel="noopener noreferrer"
               className="bella-button-primary"
@@ -91,7 +91,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <a
-                href="https://t.me/bella941_mkt"
+                href="https://t.me/Bella941"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bella-button-primary w-full text-center mt-4"

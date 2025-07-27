@@ -60,7 +60,7 @@ export default function PopularPackages() {
       'Solana VIP Package': 'SOL-VIP01'
     }
     const code = codes[packageType as keyof typeof codes] || 'GEN-01'
-    return `https://t.me/bella941_mkt?text=Hello, I'd like more information about the ${packageType} (Code: ${code})`
+    return `https://t.me/Bella941?text=Hello, I'd like more information about the ${packageType} (Code: ${code})`
   }
 
   return (
@@ -169,7 +169,7 @@ export default function PopularPackages() {
               that perfectly fits your vision and goals.
             </p>
             <a
-              href="https://t.me/bella941_mkt?text=Hello, I'd like to discuss a custom marketing package for my project."
+              href="https://t.me/Bella941?text=Hello, I'd like to discuss a custom marketing package for my project."
               target="_blank"
               rel="noopener noreferrer"
               className="bella-button-primary"
