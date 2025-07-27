@@ -119,7 +119,7 @@ export default function AntdropPage() {
                   </div>
 
                   <a 
-                    href="https://t.me/bella941_mkt?text=Antdrop early access program hakkında bilgi almak istiyorum"
+                    href="https://t.me/Bella941?text=Antdrop early access program hakkında bilgi almak istiyorum"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bella-button-primary inline-flex items-center text-lg px-8 py-4"
@@ -208,7 +208,7 @@ export default function AntdropPage() {
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a 
-                    href="https://t.me/bella941_mkt?text=Antdrop launch updates hakkında bilgi almak istiyorum"
+                    href="https://t.me/Bella941?text=Antdrop launch updates hakkında bilgi almak istiyorum"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bella-button-primary flex items-center justify-center"

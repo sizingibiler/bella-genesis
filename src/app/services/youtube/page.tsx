@@ -126,7 +126,7 @@ export default function YouTubePage() {
                       </div>
 
                       <a 
-                        href="https://t.me/bella941_mkt?text=YT-PROMO package hakkında bilgi almak istiyorum"
+                        href="https://t.me/Bella941?text=YT-PROMO package hakkında bilgi almak istiyorum"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bella-button-primary flex items-center justify-center"
@@ -175,7 +175,7 @@ export default function YouTubePage() {
                     </div>
                     
                     <a 
-                      href="https://t.me/bella941_mkt?text=YT-CUSTOM package hakkında bilgi almak istiyorum"
+                      href="https://t.me/Bella941?text=YT-CUSTOM package hakkında bilgi almak istiyorum"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bella-button-primary inline-flex items-center"
@@ -249,7 +249,7 @@ export default function YouTubePage() {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
-                  href="https://t.me/bella941_mkt"
+                  href="https://t.me/Bella941"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bella-button-primary flex items-center justify-center"

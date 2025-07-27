@@ -26,7 +26,7 @@ Could you please provide more details about pricing and next steps?
 
 Thank you!`
     
-    return `https://t.me/bella941_mkt?text=${encodeURIComponent(message)}`
+    return `https://t.me/Bella941?text=${encodeURIComponent(message)}`
   }
 
   return (
@@ -128,7 +128,7 @@ Thank you!`
               that perfectly fits your specific needs and budget.
             </p>
             <a
-              href={`https://t.me/bella941_mkt?text=Hello! I'm interested in a custom ${serviceType} package for my project. Could we discuss my specific requirements?`}
+              href={`https://t.me/Bella941?text=Hello! I'm interested in a custom ${serviceType} package for my project. Could we discuss my specific requirements?`}
               target="_blank"
               rel="noopener noreferrer"
               className="bella-button-primary"

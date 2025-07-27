@@ -129,7 +129,7 @@ export default function TelegramPage() {
                         <span className="text-bella-gold font-mono text-sm">Code: {pkg.code}</span>
                       </div>
                       <a 
-                        href={`https://t.me/bella941_mkt?text=${pkg.code} package hakkında bilgi almak istiyorum`}
+                        href={`https://t.me/Bella941?text=${pkg.code} package hakkında bilgi almak istiyorum`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bella-button-primary w-full flex items-center justify-center"
@@ -178,7 +178,7 @@ export default function TelegramPage() {
                     </div>
                     
                     <a 
-                      href="https://t.me/bella941_mkt?text=TG-CUSTOM package hakkında bilgi almak istiyorum"
+                      href="https://t.me/Bella941?text=TG-CUSTOM package hakkında bilgi almak istiyorum"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bella-button-primary inline-flex items-center"
@@ -251,7 +251,7 @@ export default function TelegramPage() {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
-                  href="https://t.me/bella941_mkt"
+                  href="https://t.me/Bella941"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bella-button-primary flex items-center justify-center"
