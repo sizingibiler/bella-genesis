@@ -93,7 +93,7 @@ export default function VisionSection() {
                   <div className="relative w-full h-full bg-gradient-to-r from-bella-gold to-bella-purple rounded-full p-1">
                     <div className="w-full h-full bg-bella-dark rounded-full p-2">
                       <Image
-                        src="/images/logo2.jpg"
+                        src="/images/logo1.jpg"
                         alt="Bella Genesis Vision"
                         fill
                         className="rounded-full object-cover"

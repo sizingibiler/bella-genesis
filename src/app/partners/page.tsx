@@ -4,6 +4,7 @@ import { Users, TrendingUp, Globe, Zap, Target, ArrowRight } from 'lucide-react'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function PartnersPage() {
   const partnerTypes = [
@@ -156,6 +157,124 @@ export default function PartnersPage() {
                   </div>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* DXC Foundation Partnership */}
+        <section className="bella-section bg-gradient-to-r from-bella-dark via-bella-gray/10 to-bella-dark">
+          <div className="bella-container">
+            <div className="text-center mb-16">
+              <h2 className="bella-heading mb-6">DXC Foundation Partnership</h2>
+              <p className="bella-text text-xl max-w-3xl mx-auto">
+                Strategic partnership providing real volume, direct investment, and proven impact for crypto projects.
+              </p>
+            </div>
+
+            <div className="grid lg:grid-cols-2 gap-16 items-center">
+              {/* Left Content */}
+              <div>
+                <div className="mb-8">
+                  <h3 className="text-2xl font-bold text-bella-gold mb-4">Real volume. Direct investment. Proven impact.</h3>
+                  <p className="bella-text text-lg leading-relaxed">
+                    The DXC Foundation, with its dedicated group of investors, offers a systematic investment 
+                    structure that provides projects not only visibility but also direct capital and sustainable growth. 
+                    Operating on a token-plus-equity model, this structure simultaneously fosters both organic growth 
+                    and community support.
+                  </p>
+                </div>
+
+                <div className="space-y-6">
+                  <div className="bg-gradient-to-r from-bella-gray/30 to-bella-blue/10 rounded-xl p-6 border border-bella-blue/20">
+                    <h4 className="text-xl font-bold text-bella-blue mb-3">Investment Model</h4>
+                    <p className="bella-text mb-3">
+                      Tokens received from the project are distributed to investors. Each investor contributes cash, 
+                      tripling the total input.
+                    </p>
+                    <p className="text-bella-gold font-semibold">
+                      Example: $30,000 in tokens → $90,000 total input
+                    </p>
+                  </div>
+
+                  <div className="bg-gradient-to-r from-bella-gray/30 to-bella-purple/10 rounded-xl p-6 border border-bella-purple/20">
+                    <h4 className="text-xl font-bold text-bella-purple mb-3">Community Support</h4>
+                    <p className="bella-text">
+                      Investors promote the project within their own communities, creating natural volume and engagement.
+                    </p>
+                  </div>
+
+                  <div className="bg-gradient-to-r from-bella-gray/30 to-bella-gold/10 rounded-xl p-6 border border-bella-gold/20">
+                    <h4 className="text-xl font-bold text-bella-gold mb-3">Transparency</h4>
+                    <p className="bella-text">
+                      Purchases are documented with video/visual evidence and shared with the project team.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right Content - Logo */}
+              <div className="flex justify-center">
+                <div className="relative">
+                  <div className="w-80 h-80 md:w-96 md:h-96 relative floating">
+                    <div className="absolute inset-0 bg-gradient-to-r from-bella-blue/20 to-bella-purple/20 rounded-full blur-3xl"></div>
+                    <div className="relative w-full h-full bg-gradient-to-r from-bella-gold to-bella-purple rounded-full p-1">
+                      <div className="w-full h-full bg-bella-dark rounded-full p-2">
+                        <Image
+                          src="/images/logo2.jpg"
+                          alt="DXC Foundation"
+                          fill
+                          className="rounded-full object-cover"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Strategic Partnership Section */}
+            <div className="mt-20">
+              <div className="text-center mb-12">
+                <h3 className="bella-subheading">DXC Foundation x Bella Genesis Strategic Partnership</h3>
+                <p className="bella-text text-lg max-w-4xl mx-auto">
+                  Bella Genesis builds systems that provide projects not only with visibility but also with real 
+                  investment impact and volume. To this end, we are collaborating with our strategic investment 
+                  partner, the DXC Foundation.
+                </p>
+              </div>
+
+              {/* Links and Contact */}
+              <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                <a 
+                  href="https://linktr.ee/DxcFoundation" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bella-button-primary flex items-center"
+                >
+                  DXC Foundation Links
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </a>
+                
+                <a 
+                  href="https://x.com/Dxc_Foundation" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bella-button-secondary flex items-center"
+                >
+                  Follow on X
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </a>
+                
+                <a 
+                  href="https://t.me/bellagenesis" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bella-button-primary flex items-center"
+                >
+                  Contact for Detailed Information
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </a>
+              </div>
             </div>
           </div>
         </section>
